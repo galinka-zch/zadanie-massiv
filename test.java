@@ -1,5 +1,5 @@
 
-public class test {
+public class BubleSort {
     public static void main(String args[]) {
         System.out.println("Initial data:");
         String mas[] = {"for", "never", "was", "a",
