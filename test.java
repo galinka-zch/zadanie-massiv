@@ -6,8 +6,9 @@ public class BubbleSort {
                         "store", "of", "more", "woe",
                         "than", "this", "of", "juliet",
                         "and", "her", "romeo"};
-        for (int i = 0; i < mas.length; i++)
+        for (int i = 0; i < mas.length; i++) {
             System.out.print(mas[i] + "; ");
+	{
         for (int i = 0; i <= mas.length; i++) {
             int j = mas.length-1;
             boolean controlSorting = true;
@@ -25,7 +26,8 @@ public class BubbleSort {
             }
         }
         System.out.println("After sorting:");
-        for (int i = 0; i < mas.length; i++ )
-        System.out.print(mas[i] + "; ");
+        for (int i = 0; i < mas.length; i++ ) {
+            System.out.print(mas[i] + "; ");
+	}
     }
 }
