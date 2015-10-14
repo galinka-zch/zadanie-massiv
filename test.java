@@ -8,7 +8,7 @@ public class BubbleSort {
                         "and", "her", "romeo"};
         for (int i = 0; i < mas.length; i++) {
             System.out.print(mas[i] + "; ");
-	{
+	}
         for (int i = 0; i <= mas.length; i++) {
             int j = mas.length-1;
             boolean controlSorting = true;
