@@ -12,15 +12,15 @@ public class BubbleSort {
         for (int i = 0; i <= mas.length; i++) {
             int j = mas.length-1;
             boolean controlSorting = true;
-            	while (j > i) {
-                	if (mas[j-1].compareTo(mas[j]) > 0) {
-                    		String a = mas[j-1];
-                    		mas[j-1] = mas[j];
-                    		mas[j] = a;
-                    		controlSorting = false;
-                	}
-            		j--;
-            	}
+            while (j > i) {
+                if (mas[j-1].compareTo(mas[j]) > 0) {
+                    String a = mas[j-1];
+                    mas[j-1] = mas[j];
+                    mas[j] = a;
+                    controlSorting = false;
+                }
+            	j--;
+            }
             if (controlSorting) {
                 break;
             }
