@@ -2,7 +2,7 @@
 public class BubbleSort {
     public static void main(String args[]) {
         System.out.println("Initial data:");
-        String mas[] = {"for", "never", "was", "a",
+        String mas[] = {"Беда", "never", "was", "a",
                 "store", "of", "more", "woe",
                 "than", "this", "of", "juliet",
                 "and", "her", "romeo"};
